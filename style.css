@@ -21,7 +21,7 @@ body{
     border-radius: 8px;
 }
 h1{
-    font-size: 24px;
+    font-size: 74px;
     margin-bottom: 30px;
 }
 input{
@@ -38,4 +38,27 @@ button{
     color: white;
     border-radius: 4px;
     cursor: pointer;
+}
+#todo-list button {
+    background-color: #ff4d4d; /* rouge clair */
+    border: none;
+    color: white;               /* texte blanc */
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+ul {
+    list-style: 0;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  8px 0;
+    border-bottom: 1px solid #ddd;
+}
+li:last-child{
+    border-bottom: none;
 }
